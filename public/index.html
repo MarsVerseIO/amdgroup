@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Metamask</title>
+        <style>
+	.user, #switch_network { display: none; }
+	input { margin: 5px; }
+	#contract {margin-top: 5px;}
+        </style>
+    </head>
+    <body>
+
+	<button id="connect_metamask">Коннект Metamask</button>
+	<button id="switch_network">Сменить сеть на Ethereum</button>
+	<div class="user">
+	   <div><span id=address>Ты авторизован с адреса: <span></span></span></div>
+	   <div>Контракт: <snap id=contract></snap></div>
+	   <div>Общий баланс контракта: <snap id=bal_contract></snap></div>
+	   <div>Твой баланс на контракте: <snap id=bal_user></snap></div>
+	   <div id="deposit"><input type="text" size="40" placeholder="0.00001"><button>Deposit</button></div>
+	   <div id="withdrawal"><input type="text" size="40" placeholder="0.00001"><button>Withdrawal</button></div>
+	</div>
+    </body>
+    <script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/web3@1.7.3/dist/web3.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/main.js"></script>
+</html>
