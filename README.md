@@ -10,7 +10,7 @@ npm install<br>
 node app.js<br>
 <br>
 Либо через Docker:<br>
-docker build . -t kvantron<br>
-docker run -p 3000:3000 kvantron<br>
+docker build . -t amdgroup<br>
+docker run -p 3000:3000 amdgroup<br>
 <br>
 После запуска проверить работу можно по адресу http://localhost:3000/
